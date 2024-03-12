@@ -8,3 +8,6 @@
 | # | Topic | Content |
 | ------ | ------ | ------ |
 | 1 | HTML | Basics of HTML, tags, page structure, img & anchor tag  |
+| 2 | CSS | inline, embedded, and external CSS, css selectors  |
+| 3 | Bootstrap | bootstrap 4.6, basic forms and readymade classes  |
+| 4 | Javascript | Basics, Vanilla JS, DOM  |
