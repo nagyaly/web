@@ -1,0 +1,17 @@
+/* select by id */
+#main{
+    color: red;
+}
+/* select class */
+.green{
+    color: green;
+}
+.bold{
+    font-weight: bold;
+}
+/* select tagname */
+div{
+    border: 1px solid black;
+    padding: 10px; 
+    width: 50%;
+}

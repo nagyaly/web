@@ -1,0 +1,36 @@
+<html>
+    <head>
+        <title>2-1 Inline CSS</title>
+    </head>
+    <body>
+        <style>
+            /* select by id */
+            #main{
+                color: red;
+            }
+            /* select class */
+            .green{
+                color: green;
+            }
+            .bold{
+                font-weight: bold;
+            }
+            /* select tagname */
+            div{
+                border: 1px solid black;
+                padding: 10px; 
+                width: 50%;
+            }
+        </style>
+        <h3 id="main">AAST</h3>
+        <h3 class="green bold">College of AI</h3>
+        <div>
+            <label for="username">Username</label>
+            <input id="username" type="text" placeholder="Username">
+            <br>
+            <br>
+            <label for="pass">Password</label>
+            <input id="pass" type="text" placeholder="password">
+        </div>
+    </body>
+</html>
