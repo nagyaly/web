@@ -1,0 +1,46 @@
+<html>
+    <head>
+        <title>My Game | XO</title>
+        <link rel="stylesheet" href="bootstrap.min.css">
+        <script src="myscript.js"></script>
+    </head>
+    <body>
+        <style>
+            #turn_lbl{
+                padding: 0;
+                margin: 0;
+            }
+            .col{
+                margin: 5px;
+                padding: 0;
+            }
+            .cell{
+                width: 60px;
+                height: 60px;
+                font-size: 28pt;
+                color: white;
+            }
+        </style>
+        <div class="container m-3">
+            <div class="row">
+                <div class="col"><p id="turn_lbl">Turn: X</p></div>
+                <div class="col"><button onclick="reset()" class="btn btn-danger">RESET</button></div>
+            </div>
+            <div class="row">
+                <div class="col"><button onclick="activate(this)" class="cell btn btn-outline-dark"></button></div>
+                <div class="col"><button onclick="activate(this)" class="cell btn btn-outline-dark"></button></div>
+                <div class="col"><button onclick="activate(this)" class="cell btn btn-outline-dark"></button></div>
+            </div>
+            <div class="row mt-2">
+                <div class="col"><button onclick="activate(this)" class="cell btn btn-outline-dark"></button></div>
+                <div class="col"><button onclick="activate(this)" class="cell btn btn-outline-dark"></button></div>
+                <div class="col"><button onclick="activate(this)" class="cell btn btn-outline-dark"></button></div>
+            </div>
+            <div class="row mt-2">
+                <div class="col"><button onclick="activate(this)" class="cell btn btn-outline-dark"></button></div>
+                <div class="col"><button onclick="activate(this)" class="cell btn btn-outline-dark"></button></div>
+                <div class="col"><button onclick="activate(this)" class="cell btn btn-outline-dark"></button></div>
+            </div>
+        </div>
+    </body>
+</html>

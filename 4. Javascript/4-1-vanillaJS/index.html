@@ -1,0 +1,61 @@
+<html>
+  <head>
+    <title>JS</title>
+    <link rel="stylesheet" href="bootstrap.min.css" />
+  </head>
+  <body>
+    <script>
+      function myfun() {
+        //reference to x
+        var ref_x = document.getElementById("x");
+        var ref_y = document.getElementById("y");
+        var ref_sum = document.getElementById("sum");
+        //parseInt to cast from string to int
+        var total = parseInt(ref_x.value) + parseInt(ref_y.value);
+        ref_sum.innerText = "Sum: " + total;
+      }
+    </script>
+    <!-- -------------------------------------- -->
+    <div class="container border border-dark p-3 m-3">
+      <div class="row mb-2">
+        <div class="col text-center">
+          <h3>Sum Calculator</h3>
+          <hr />
+        </div>
+      </div>
+      <!-- ------------------------------------- -->
+      <div class="row mb-2">
+        <div class="col text-center">
+          <div class="input-group">
+            <div class="input-group-prepend">
+              <span class="input-group-text">X</span>
+            </div>
+            <input id="x" type="text" class="form-control" />
+          </div>
+        </div>
+      </div>
+      <!-- ------------------------------------- -->
+      <div class="row mb-2">
+        <div class="col text-center">
+          <div class="input-group">
+            <div class="input-group-prepend">
+              <span class="input-group-text">Y</span>
+            </div>
+            <input id="y" type="text" class="form-control" />
+          </div>
+        </div>
+      </div>
+      <!-- ------------------------------------- -->
+      <div class="row mb-2">
+        <div class="col text-center">
+          <button class="btn btn-primary btn-block" onclick="myfun()">Calc</button>
+        </div>
+        <div class="col text-center">
+          <p id="sum">Sum:</p>
+        </div>
+      </div>
+      <!-- ------------------------------------- -->
+    </div>
+  </body>
+</html>
+
